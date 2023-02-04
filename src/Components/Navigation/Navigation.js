@@ -19,8 +19,8 @@ function Navigation() {
                         <li>Events</li>
                     </ul>
                 </div>
-                <h1>City Sights YYC</h1>
-                <div>POINTS</div>
+                <h1>[X] City Sights YYC</h1>
+                <div>[POINTS]</div>
                 <div>
                     <AccountCircle />
                 </div>
