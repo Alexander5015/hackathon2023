@@ -1,10 +1,13 @@
 import React from "react";
 import Dehaze from "@mui/icons-material/Dehaze";
 import AccountCircle from "@mui/icons-material/AccountCircle";
+import { slide as Menu } from "react-burger-menu";
+import "./Navigation.css";
 
 function Navigation() {
     return (
         <>
+            {/* Remove inline-styling on successful CSS */}
             {/* Navigation Bar / Header */}
             <div style={{ border: "2px solid red" }}>
                 <div>
