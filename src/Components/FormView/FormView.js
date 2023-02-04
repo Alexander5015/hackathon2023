@@ -27,14 +27,16 @@ function FormView({ formHead, formFoot, formData }) {
                         <div>
                             <div className="checkbox-circle">
                                 <input type="checkbox" id="checkbox-circle1" name="rememberMe"></input>
-                                    <label for="checkbox-circle1">Remember Me</label>
+                                <label for="checkbox-circle1" className="formTextColor">Remember Me</label>
                             </div>
-                            <Link to={"/forgotpassword"} target="_blank" className="formLastLinks">
-                                Forgot password?
-                            </Link>
+                            <div className="formCentres">
+                                <Link to={"/forgotpassword"} target="_blank" className="formLastLinks">
+                                    Forgot password?
+                                </Link>
+                            </div>
                         </div>
                     )}
-                    <div>
+                    <div className="formCentres">
                         <Link to={formFoot.link} className="formLastLinks">{formFoot.name}</Link>
                     </div>
                 </form>
