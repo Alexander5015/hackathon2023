@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/UserInfo.module.css";
+// import StarIcon from '@material-ui/icons/Star';
 
 const UserInfo = ({ name, contact, about, image }) => {
   return (
