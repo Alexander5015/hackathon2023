@@ -4,6 +4,7 @@ import styles from "../../styles/UserInfo.module.css";
 const UserInfo = ({ name, contact, about, image }) => {
   return (
     <div className={styles.container}>
+      
       {/* //top */}
       <div className={styles.top}>
         <div className={styles.right}>
@@ -12,7 +13,7 @@ const UserInfo = ({ name, contact, about, image }) => {
           </div>
           <div className={styles.userDesc}>
             <h3 className={styles.name}>Joe Doe</h3>
-            <p className={styles.contact}>123-456-7891</p>
+            <p className={styles.contact}>joe-doe@gmail.com</p>
           </div>
         </div>
         <div className={styles.left}>

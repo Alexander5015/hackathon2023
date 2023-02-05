@@ -15,6 +15,9 @@ const Profile = () => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.empty}>
+        {/* Empty div */}
+      </div>
       <UserInfo />
 
       <div className="tabs">
@@ -76,7 +79,6 @@ const Profile = () => {
                 onClick={() => handleTabClick("tab1")}
               >
                 Share more
-                <AddIcon className={styles.addIcon} />
               </button>
             </div>
           </div>
