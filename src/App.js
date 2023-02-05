@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import Profile from "./Pages/Profile";
+import ShareAnActivity from "./Pages/ShareAnActivity";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path= "/" element={<Home />}/>
                     <Route path="/profile" element={<Profile />}/>
+                    <Route path="/shareactivity" element={<ShareAnActivity />}/>
                 </Routes>
             </Router>
         </div>

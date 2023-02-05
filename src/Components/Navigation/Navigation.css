@@ -1,4 +1,31 @@
-.burger{
-    height: 50px;
-    width: 50px;
+.burger {
+	height: 50px;
+	width: 50px;
+}
+.bm-burger-button {
+    display: inline-block;
+	position: relative;
+	width: 36px;
+	height: 30px;
+    margin-right: auto;
+	/* left: 20px; */
+	/* top: 36px; */
+}
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.midHeaderFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.menuFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
