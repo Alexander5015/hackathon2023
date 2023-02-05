@@ -12,13 +12,14 @@ function Navigation() {
         <div className="headerContainer">
             <div className="midHeaderFlex">
                 <div className="menuFlex">
-                    <br/><Menu width={150} customBurgerIcon={<Dehaze />}
-                    customCrossIcon={<Close />} className="menu">
-                    <a id="home" className="menu-item" href="/">Who are we?</a>
-                    <a id="about" className="menu-item" href="/about">Work with us</a>
-                    <a id="contact" className="menu-item" href="/contact">Buisness</a>
-                    <a id="Events" className="menu-item" href="/contact">Events</a>
-                </Menu>
+                    <br /><Menu width={150} customBurgerIcon={<Dehaze />}
+                        customCrossIcon={<Close />} className="menu">
+                        <br/><br/>
+                        <a id="home" className="menu-item" href="/">Who are we?</a><br/><br/>
+                        <a id="about" className="menu-item" href="/about">Work with us</a><br/><br/>
+                        <a id="contact" className="menu-item" href="/contact">Buisness</a><br/><br/>
+                        <a id="Events" className="menu-item" href="/contact">Events</a><br/><br/>
+                    </Menu>
                 </div>
                 <h1>City Sights YYC</h1>
             </div>
