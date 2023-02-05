@@ -5,7 +5,6 @@ import UserInfo from "../Components/UserInfo/UserInfo";
 import AddIcon from "@mui/icons-material/Add";
 import StarRateIcon from "@mui/icons-material/StarRate";
 
-import TabMenu from "../Components/TabMenu/TabMenu";
 import { useState } from "react";
 const Profile = () => {
   const [activeTab, setActiveTab] = useState("tab1");

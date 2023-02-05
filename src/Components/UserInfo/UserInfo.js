@@ -26,13 +26,11 @@ const UserInfo = ({ name, contact, about, image }) => {
         </div>
         <div className={styles.containerAbout}></div>
         <div className={styles.aboutDesc}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          People like Calgary for many reasons, including its scenic beauty,
+          thriving economy, and friendly community. It is also known for its
+          rich cultural scene, outdoor recreational opportunities, and
+          world-class restaurants and shopping.
         </div>
-
-        
       </div>
     </div>
   );
