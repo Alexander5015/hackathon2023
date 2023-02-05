@@ -3,7 +3,7 @@ import styles from "./../styles/Profile.module.css";
 import PersonIcon from "@mui/icons-material/Person";
 import UserInfo from "../Components/UserInfo/UserInfo";
 import AddIcon from "@mui/icons-material/Add";
-import StarIcon from "@material-ui/icons/Star";
+import StarRateIcon from '@mui/icons-material/StarRate';
 
 const Profile = () => {
   return (
@@ -33,7 +33,11 @@ const Profile = () => {
             <img className={styles.userImage} src="/user1.jpg" alt="user1" />
           </div>
           <h4 className={styles.reviewTitle}>Joe Doen</h4>
-          <StarIcon />
+          <StarRateIcon />
+          <StarRateIcon />
+          <StarRateIcon />
+          <StarRateIcon />
+          <StarRateIcon />
         </div>
         <div className={styles.bottom}>
           <p className={styles.reviewDesc}>
